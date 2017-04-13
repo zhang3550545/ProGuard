@@ -41,7 +41,9 @@
 
 #### 6.类中的内部类不被混淆(内部类类名会混淆，变量和方法名不混淆)
 ```
--keepclassmembers class com.yundoku.mylibrary.manager.AnimalManager$AnimalInfo{*;}
+-keepclassmembers class com.yundoku.mylibrary.manager.AnimalManager$*{
+    *;
+}
 ```
 
 
